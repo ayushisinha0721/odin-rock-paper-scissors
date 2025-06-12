@@ -11,8 +11,6 @@ function getHumanChoice(){
     return humanChoice.toLowerCase();
 }
 
-//rok 0 paper 1 scissor 2
-//0<1 1<2 2<0
 function playRound(humanChoice, computerChoice){
     if(humanChoice === computerChoice){
         return "It's a tie!";
